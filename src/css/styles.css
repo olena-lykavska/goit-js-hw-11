@@ -77,6 +77,11 @@ main {
   display: none;
 }
 
+#loader.visible {
+  display: block;
+  /* Лоадер стає видимим */
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
